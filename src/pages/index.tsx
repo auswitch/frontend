@@ -11,7 +11,7 @@ export default function Home() {
             className="!text-lg bg-blue-500 hover:bg-blue-600"
             onClick={() => router.push(Route.CmuOAuthCallback)}
           >
-            Sign in with CMU account
+            Sign in with CMU accoun t
           </Button>
         </div>
       </main>
