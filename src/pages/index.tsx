@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className=" flex items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
-      <main className="linear-gradient flex h-screen w-screen justify-center items-center">
+      <main className="bg-gradient-to-tr from-[#8C0707] to-[#1B0438] flex h-screen w-screen justify-center items-center">
         <div className="flex">
           <Button
             className="!text-lg bg-blue-500 hover:bg-blue-600"

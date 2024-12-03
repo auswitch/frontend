@@ -11,7 +11,7 @@ export default function SelectDepartment() {
   const department = ["งานบริการการศึกษา", "งานพัฒนาคุณภาพนักศึกษา"];
 
   return (
-    <div className="h-screen w-screen linear-gradient flex justify-between px-20 items-center">
+    <div className="h-screen w-screen bg-gradient-to-tr from-[#8C0707] to-[#1B0438] flex justify-between px-20 items-center">
       <div className="text-white">
         <div className="font-semibold -mt-1 translate-y-[-4px] text-[22px]">
           {/* {getUserName(user, 1)} */}
