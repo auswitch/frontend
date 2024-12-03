@@ -1,8 +1,19 @@
+import { Button } from "@/components/ui/button";
+import { Route } from "@/config/Route";
+import { useRouter } from "next/navigation";
 export default function Home() {
+  const router = useRouter();
   return (
     <div className=" flex items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
       <main className="linear-gradient flex h-screen w-screen justify-center items-center">
-        <div>test</div>
+        <div className="flex">
+          <Button
+            className="!text-lg bg-blue-500 hover:bg-blue-600"
+            onClick={() => router.push(Route.CmuOAuthCallback)}
+          >
+            Login
+          </Button>
+        </div>
       </main>
       {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
